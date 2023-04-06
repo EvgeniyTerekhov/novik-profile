@@ -1,0 +1,229 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    background: #FFFFFF;
+}
+ 
+.container {
+    width: 944px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 33px;
+    margin-bottom: 32px;
+    padding: 0;
+}
+
+.menu li {
+    list-style-type: none; /* Убирает точки в списках типа Li */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #828282;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    transition: all 0.7s ease;
+}
+
+.menu li a:hover {
+    color: #070707;
+}
+
+.nav {
+    border-bottom-style: solid;
+    border-bottom-color: #828282;
+    border-width: 1px;
+}
+
+p {
+    color: #070707;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 148px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 50px;
+}
+
+.name {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    margin: 0;
+}
+
+.prof {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    margin: 0;
+}
+
+.button {
+    display: flex;
+    transform: rotate(270deg);
+}
+.button a {
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    color:#828282;
+    transition: all 0.7s ease;
+}
+
+.button a:hover {
+    color: #070707;
+}
+
+.photo {
+    Width: 944px;
+    height: 387px;
+    margin-bottom: 105px;
+}
+
+.introducing {
+    background-color: #F6F6F6;
+    height: 506px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.inscription {
+    font-family: 'Rubik', sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+
+.bio1, .bio2, .bio3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 22px; 
+    font-weight: 300;
+    margin-top: 18px;
+    margin-bottom: 40px;
+}
+
+.enumeration {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.listing {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 22px; 
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.utilities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tools {
+    width: 167px;
+    height: 206px;
+    margin-top: 83px;
+    margin-bottom: 111px;
+    padding: 0;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.examples {
+    width: 936px;
+    height: 522px;
+}
+
+.examples__inner {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    line-height: 22px; 
+    font-weight: 300;
+    margin-top: 45px;
+    margin-bottom: 100px;
+    text-decoration: underline;
+    color: #070707;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.button_item {
+    display: flex;
+    justify-content: center;
+}
+
+.message_button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 166px;
+    height: 38px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color:#F6F6F6;
+    padding: 12px 40px;
+    border: 1px solid;
+    border-radius: 22px;
+    background: #070707;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-bottom: 90px;
+}
+
+.message_button:hover {
+    background: #FFFFFF;
+    color:#070707;
+    border: 1px solid;
+    border-color: #070707;
+    margin-bottom: 90px;
+}
+
+.logo {
+    width: 342px;
+    height: 41px;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer_inner {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    margin-top: 45px;
+    margin-bottom: 123px;
+}
